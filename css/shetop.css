@@ -1032,15 +1032,15 @@ border-radius: .3rem}
 				margin: auto;
 				margin-top: 1rem;
 			}
-			@media screen and (orientation:landscape) {/*横屏*/
-			.header .shopName{
+/*********************************************************************************************************************//*横屏*/
+			.landscape .header .shopName{
 				left:13rem;
 			}
-			.header .menu{/*菜单*/
+			.landscape .header .menu{/*菜单*/
 				width:10.7rem;
 				height:9rem;
 			}
-			.header .menu a{
+			.landscape .header .menu a{
 				margin-left:.3rem;
 				font-size:1.2rem;
 				color:white;
@@ -1048,85 +1048,85 @@ border-radius: .3rem}
 				width:10rem;
 				line-height:3rem;
 				}
-			.banner{
+			.landscape .banner{
 				height:21.4rem;
 			}
-			.bannerCenter{
+			.landscape .bannerCenter{
 				height:21.4rem;
 			}
-			.bannerPoint{
+			.landscape .bannerPoint{
 				height:21.4rem;
 			}
-			.bannerRight{
+			.landscape .bannerRight{
 				top:9.6rem;
 				width:1.3rem;
 				height:2.3rem;
 				background-size: 1.3rem 2.3rem;
 			}
-			.bannerCount{
+			.landscape .bannerCount{
 				width:.6rem;
 				height:.6rem;
 				border-radius: 1rem;
 				bottom:.8rem;
 			}
-			.bannerCount.bannerCount0{
+			.landscape .bannerCount.bannerCount0{
 				left:13.8rem;
 			}
-			.bannerCount.bannerCount1{
+			.landscape .bannerCount.bannerCount1{
 				left:15rem;
 			}
-			.bannerCount.bannerCount2{
+			.landscape .bannerCount.bannerCount2{
 				left:16.2rem;
 			}
-			.typePoint{
+			.landscape .typePoint{
 				margin-top: 2.8rem;
 			}
-			.typeLine{
+			.landscape .typeLine{
 				height:5.2rem;
 				margin-top: 4rem;			
 			}
-			.typePoint .icon{
+			.landscape .typePoint .icon{
 				width:5.3rem;
 				height:5.1rem;
 				left:2rem;
 			}
-			.typePoint .name{
+			.landscape .typePoint .name{
 				margin-top: 1rem;
 				color: #ff0066;
 				text-align: center;
 				font-size: 1rem;
 			}
-			.goodList{
+			.landscape .goodList{
 				margin-top: 2rem;
 				margin-left:1.2rem;
 			}
-			.goodPoint{
+			.landscape .goodPoint{
 				width:29rem;
 			}
-			.goodPoint .image{
+			.landscape .goodPoint .image{
 				width:29.3rem;
 
 				height:22.74rem;
 			}
-			.goodPoint .description{
+			.landscape .goodPoint .description{
 				font-size: 1.2rem;
 				text-align: center;
 				font-weight: bolder;
 			}
-			.goodPoint .price{
+			.landscape .goodPoint .price{
 				float:left;
 				color:#ff0066;
 				font-size: 2.6rem;
 				margin-top: 1rem;
 			}
-			.goodPoint .costPrice{
+			.landscape .goodPoint .costPrice{
 				float:left;
 				color:#6e6e6e;
 				font-size: 1rem;
 				text-decoration: line-through;
 				margin-top: 2.4rem;
 			}
-			.goodPoint .pay{
+			.landscape .goodPoint .pay{
 				float:right;
 				width:4.8rem;
 				height:2rem;
@@ -1136,46 +1136,46 @@ border-radius: .3rem}
 				margin-top: 1.2rem;
 				font-size:.8rem;
 			}
-			.phoneIcon{
+			.landscape .phoneIcon{
 				left:13rem;
 			}
-			.phoneNumber{
+			.landscape .phoneNumber{
 				left:15rem;
 			}
-			.ICP{
+			.landscape .ICP{
 				position: absolute;
 				left:15rem;
 			}
-			.footer.shopping{
+			.landscape .footer.shopping{
 	height:4.3rem;
 }
-.choose{
+.landscape .choose{
 	width:1.8rem;
 	height:1.8rem;
 	border:1px solid #ff0066;
 	border-radius:1.8rem;
 	background-size:1.8rem 1.8rem
 	}
-.footer .choose{
+.landscape .footer .choose{
 	margin-left:.6rem;
 	margin-top:1.2rem;
 	}
-.footer .selectAll{
+.landscape .footer .selectAll{
 	float:left;
 font-size: 1.6rem;
 margin-top: 1.3rem;
 margin-left: 1rem}
-.footer .countPrice{
+.landscape .footer .countPrice{
 	font-size:1rem;
 	margin-top: 1.6rem;
 	margin-left:1rem;
 }
-.footer .totalPrice{
+.landscape .footer .totalPrice{
 	font-size:1.6rem;
 	margin-top: 1.2rem;
 	margin-left:.4rem;
 }
-.goToPay{
+.landscape .goToPay{
 	width:10.6rem;
 	height:3.2rem;
 	border-radius:3.2rem;
@@ -1183,41 +1183,41 @@ margin-left: 1rem}
 	margin-top: .3rem;
 	margin-left: .1rem;
 	}
-.headTitle{
+.landscape .headTitle{
 	line-height: 5.5rem;
 }
-.shoppingList{
+.landscape .shoppingList{
 	margin-top:1.2rem;
 }
-.shoppingList .listId{
+.landscape .shoppingList .listId{
 	line-height: 2.4rem;
 	margin-right: 1rem;
 	font-size: .8rem;
 }
-.shoppingList .payTime{
+.landscape .shoppingList .payTime{
 	line-height: 2.4rem;
 	margin-right: 1rem;
 	font-size: .8rem;
 }
-.shoppingListHeadFream{
+.landscape .shoppingListHeadFream{
 	height:2.4rem;
 }
-.shoppingListfootFream{
+.landscape .shoppingListfootFream{
 	height:3.1rem;
 }
-.shoppingListHead{
+.landscape .shoppingListHead{
 	width:29rem;
 	height:2.4rem;
 }
-.shoppingListHead .choose{
+.landscape .shoppingListHead .choose{
 	margin-top: .24rem
 }
-.shoppingListTitle{
+.landscape .shoppingListTitle{
 	margin-left:1rem;
 	line-height:2.4rem;
 	font-size: 1.6rem
 }
-.shoppingListTap{
+.landscape .shoppingListTap{
 	height:1.8rem;
 	line-height: 1.8rem;
 	padding-left: 2rem;
@@ -1226,134 +1226,134 @@ margin-left: 1rem}
 	margin-top:1rem;
 	font-size: 1.4rem;
 }
-.shoppingPoint{
+.landscape .shoppingPoint{
 	width:29rem;
 	height:8.6rem;
 	padding-top:1rem;
 }
-.shoppingPoint .choose{
+.landscape .shoppingPoint .choose{
 	margin-top: 2.6rem
 }
-.shoppingPointIcon{
+.landscape .shoppingPointIcon{
 	width:6.6rem;
 	height:6.6rem;
 	border-radius:.4rem;
 	margin-top:.2rem;
 	margin-left:1rem;
 }
-.shoppingPointRight{
+.landscape .shoppingPointRight{
 	width: 18rem;
 	font-size: 1.2rem;
 	margin-left: 1rem;
 }
-.shoppingPointTitle{
+.landscape .shoppingPointTitle{
 	line-height: 1.6rem;
 }
-.shoppingPointType,.shoppingPointSize{
+.landscape .shoppingPointType,.shoppingPointSize{
 	font-size: .8rem;
 }
-.shoppingPointPrice{
+.landscape .shoppingPointPrice{
 	margin-top: .8rem;
 }
-.shoppingPointRemove{
+.landscape .shoppingPointRemove{
 	width:1.8rem;
 	height:1.8rem;
 	top:2.6rem;
 	right:-1.6rem;
 }
-.shoppingPointCostPrice{
+.landscape .shoppingPointCostPrice{
 	margin-top: 1rem;
 	margin-left: 1rem;
 	font-size: 1rem
 }
-.shoppingPointCount{
+.landscape .shoppingPointCount{
 	width:6.3rem;
 	height:2.2rem;
 	right:.4rem;
 	bottom:.4rem;
 }
-.shoppingPointAdd{
+.landscape .shoppingPointAdd{
 	line-height: 2.2rem;
 }
-.shoppingPointNum{
+.landscape .shoppingPointNum{
 	line-height: 2.2rem;
 }
-.shoppingPointSub{
+.landscape .shoppingPointSub{
 	line-height: 2.2rem;
 }
-.messagePoint{
+.landscape .messagePoint{
 	width:26.2rem;
 	height:2.1rem;
 	margin-top: 1rem;
 }
-.messageLabel{
+.landscape .messageLabel{
 	font-size: 1rem;
 	width:5.1rem;
 }
-.messageMeain{
+.landscape .messageMeain{
 	margin-left:1rem;
 	width:20.1rem;
 }
-.messageSelect{
+.landscape .messageSelect{
 	width:5.45rem;
 	height:2.1rem;
 	border-radius: .5rem;
 	font-size: 1rem;
 }
-.messageSelectLabel{
+.landscape .messageSelectLabel{
 	height:2.1rem;
 	line-height: 2.1rem;
 }
-.messageSelectButton{
+.landscape .messageSelectButton{
 	height:2.1rem;
 	line-height: 2.1rem;
 }
-.messageSelect select{
+.landscape .messageSelect select{
 	width:5.45rem;
 	height:2.1rem;
 }
-.messageWord{
+.landscape .messageWord{
 	font-size: 1rem;
 	margin-top: .4rem;
 }
-.messageListTitle{
+.landscape .messageListTitle{
 	width:26.2rem;
 	margin-top: 1rem;
 	font-size:1rem;
 }
-.inputM{width:10rem;
+.landscape .inputM{width:10rem;
 height:2.1rem;
 line-height:2.1rem;
 border-radius: .6rem}
-.inputL{width:20.1rem;
+.landscape .inputL{width:20.1rem;
 height:2.1rem;
 line-height:2.1rem;
 border-radius: .6rem}
-.doubleGoodList{
+.landscape .doubleGoodList{
 	width:29.34rem;
 	height:23rem;
 	margin-top: 1rem;
 }
-.doubleGoodPoint{
+.landscape .doubleGoodPoint{
 	height:23rem;
 }
-.doubleGoodImage{
+.landscape .doubleGoodImage{
 	height:14.6rem;
 }
-.doubleGoodName{
+.landscape .doubleGoodName{
 	font-size: 1.2rem;
 	margin-top: 1rem;
 	line-height: 1.6rem
 }
-.doubleGoodPrice{
+.landscape .doubleGoodPrice{
 	margin-top: 1.8rem;
 	font-size: 1.6rem;
 }
-.doubleGoodCostPrice{
+.landscape .doubleGoodCostPrice{
 	margin-top: 2.2rem;
 	font-size: 1rem;
 }
-.doubleGoodPay{
+.landscape .doubleGoodPay{
 	width:5.6rem;
 	height:2.3rem;
 	border-radius:.6rem;
@@ -1362,40 +1362,40 @@ border-radius: .6rem}
 	margin-right: .6rem;
 	font-size: 1.2rem
 }
-.secondNavBar{
+.landscape .secondNavBar{
 	height:3.2rem;
 }
-.secondNav{
+.landscape .secondNav{
 	height:1rem;
 	margin-top: 1.2rem;
 	font-size:1rem;
 }
-.secondNavIcon{
+.landscape .secondNavIcon{
 	height:1rem;
 	width:.4rem;
 	margin-left: 2rem
 }
-.secondNavName{
+.landscape .secondNavName{
 	margin-left: 1rem
 }
-.secondNavMenu{
+.landscape .secondNavMenu{
 	top:1rem;
 	left:0rem;
 }
-.secondNavOption{
+.landscape .secondNavOption{
 	height:2rem;
 	line-height: 2rem;
 }
-.footCountPay{
+.landscape .footCountPay{
 	line-height: 3.1rem;
 	font-size:1.2rem;
 }
-.footTotalPay{
+.landscape .footTotalPay{
 	line-height: 3.1rem;
 	font-size: 1.6rem;
 	margin-left: 1rem
 }
-.footPayButton{
+.landscape .footPayButton{
 	width:5rem;
 	height:2.3rem;
 	margin-right: 1rem;
@@ -1404,7 +1404,7 @@ border-radius: .6rem}
 	margin-top: .2rem;
 	font-size: 1.2rem
 }
-.footCancelButton{
+.landscape .footCancelButton{
 	width:5rem;
 	height:2.3rem;
 	margin-right: 1rem;
@@ -1413,142 +1413,142 @@ border-radius: .6rem}
 	margin-top: .2rem;
 	font-size: 1.2rem
 }
-.placeList{
+.landscape .placeList{
 	margin-top: 1rem;
 }
-.placePoint{
+.landscape .placePoint{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
-.placePoint .choose{
+.landscape .placePoint .choose{
 	margin-left: 2rem;
 }
-.placePoint .defaultPlace{
+.landscape .placePoint .defaultPlace{
 	margin-left: 1rem;
 	font-weight: bold;
 	font-size: 1.6rem;
 }
-.placePoint .placeName{
+.landscape .placePoint .placeName{
 	margin-top: .6rem;
 	margin-left: 2rem;
 	font-size: 1.2rem
 }
-.placePoint .placePhone{
+.landscape .placePoint .placePhone{
 	margin-top: .6rem;
 	margin-left: 2rem;
 	font-size: 1.2rem
 }
-.placePoint .placeDetail{
+.landscape .placePoint .placeDetail{
 	font-size: 1.2rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	margin-top: .6rem;
 }
-.companyHead{
+.landscape .companyHead{
 	height:4.3rem;
 }
-.companyTitle{
+.landscape .companyTitle{
 	margin-left: 2rem;
 	line-height: 4.3rem;
 	font-size:1.6rem;
 }
-.companyEn{
+.landscape .companyEn{
 	margin-left: 1rem;
 	line-height: 4.3rem;
 	font-size: 1.6rem;
 }
-.companyToggle{
+.landscape .companyToggle{
 	margin-right: 1rem;
 	line-height: 4.3rem;
 }
-.companyBottom{
+.landscape .companyBottom{
 	padding: 1rem 2rem;
 	font-size: 1rem;
 	line-height: 1.6rem;
 }
-.goodDetailBanner{
+.landscape .goodDetailBanner{
 				height:24.8rem;
 			}
-			.goodDetailBannerCenter{/*banner滚动区*/
+			.landscape .goodDetailBannerCenter{/*banner滚动区*/
 				height:24.8rem;
 			}
-			.goodDetailBannerPoint{/*banner滚动内容*/
+			.landscape .goodDetailBannerPoint{/*banner滚动内容*/
 				height:24.8rem;
 			}
-			.goodDetailBannerRight{/*banner箭头*/
+			.landscape .goodDetailBannerRight{/*banner箭头*/
 				width:13rem;
 				height:2.3rem;
 				background-size: 1.3rem 2.3rem;
 				top:9.6rem;
 				right:2rem;
 			}
-			.goodDetailBannerCount{/*banner白点*/
+			.landscape .goodDetailBannerCount{/*banner白点*/
 				width:.6rem;
 				height:.6rem;
 				border-radius: 10rem;
 				bottom:.8rem;
 			}
-			.goodDetailBannerCount.goodDetailBannerCount0{
+			.landscape .goodDetailBannerCount.goodDetailBannerCount0{
 				left:13.8rem;
 			}
-			.goodDetailBannerCount.goodDetailBannerCount1{
+			.landscape .goodDetailBannerCount.goodDetailBannerCount1{
 				left:15rem;
 			}
-			.goodDetailBannerCount.goodDetailBannerCount2{
+			.landscape .goodDetailBannerCount.goodDetailBannerCount2{
 				left:16.2rem;
 			}
-			.goodDetailBannerCount.goodDetailBannerCount3{
+			.landscape .goodDetailBannerCount.goodDetailBannerCount3{
 				left:17.6rem;
 			}
-			.goodDetailName{
+			.landscape .goodDetailName{
 				height:4rem;
 				line-height: 4rem;
 				text-indent: 2rem;
 				font-size: 1.6rem
 			}
-			.goodDetailbottom{
+			.landscape .goodDetailbottom{
 				height:4rem;
 				line-height: 4rem;
 				font-size: 1.6rem;
 			}
-			.goodDetailPrice{
+			.landscape .goodDetailPrice{
 				line-height: 4rem;
 				margin-left: 2rem;
 				font-size: 2.4rem
 			}
-			.goodDetailCountPrice{
+			.landscape .goodDetailCountPrice{
 				margin-right: 2rem;
 				margin-top: .6rem;
 				font-size: 1rem
 			}
-			.goodDetailAttrList{
+			.landscape .goodDetailAttrList{
 				padding: 2rem;
 				margin-top: 2rem;
 			}
-			.goodDetailAttrPoint{
+			.landscape .goodDetailAttrPoint{
 				margin-bottom: 1rem;
 			}
-			.goodDetailAttrLeft{
+			.landscape .goodDetailAttrLeft{
 				margin-top:.6rem;
 				width:6.6rem;
 				font-size: 1.4rem
 			}
-			.goodDetailAttrRight{
+			.landscape .goodDetailAttrRight{
 				width:18.6rem;
 			}
-			.goodDetailAttrColor{
+			.landscape .goodDetailAttrColor{
 				width:2.5rem;
 				height: 2.5rem;
 				border-radius: 2.5rem;
 				margin-right: 1rem
 			}
-			.goodDetailAttrColorPoint{
+			.landscape .goodDetailAttrColorPoint{
 				width: 1.8rem;
 				height: 1.8rem;
 				border-radius: 1.8rem;
 				top: .3rem;
 			}
-			.goodDetailAttrSize{
+			.landscape .goodDetailAttrSize{
 				width:4.6rem;
 				height:1.9rem;
 				line-height: 1.9rem;
@@ -1557,7 +1557,7 @@ border-radius: .6rem}
 				border-radius: 1.9rem;
 				margin-top: .6rem
 			}
-			.goodDetailAttrAdd{
+			.landscape .goodDetailAttrAdd{
 				width:2.2rem;
 				height:2.2rem;
 				line-height: 2.2rem;
@@ -1565,14 +1565,14 @@ border-radius: .6rem}
 				border-radius: 2.2rem 0 0 2.2rem;
 				margin-top: .4rem
 			}
-			.goodDetailAttrCount{
+			.landscape .goodDetailAttrCount{
 				width:2.6rem;
 				height:2.2rem;
 				line-height: 2.2rem;
 				font-size: 1.2rem;
 				margin-top: .4rem
 			}
-			.goodDetailAttrSub{
+			.landscape .goodDetailAttrSub{
 				width:2.2rem;
 				height:2.2rem;
 				line-height: 2.2rem;
@@ -1580,7 +1580,7 @@ border-radius: .6rem}
 				margin-top: .4rem
 			}
 			/*登录*/	
-			.login_input{
+			.landscape .login_input{
 			border-radius:.43rem;
 			width:18.549rem;
 			height:3.05rem;
@@ -1589,7 +1589,7 @@ border-radius: .6rem}
 			font-size:1.2rem;
 			}
 			
-			.login_botton{
+			.landscape .login_botton{
 			width:9.4rem;
 			height:3.05rem;
 			border-radius:.43rem;
@@ -1598,7 +1598,7 @@ border-radius: .6rem}
 			margin-left:1rem;
 			}
 			
-			.login_input01{
+			.landscape .login_input01{
 			width:29rem;
 			height:3.05rem;
 			border-radius:.43rem;
@@ -1607,13 +1607,13 @@ border-radius: .6rem}
 			font-size:1.2rem;
 			}
 			
-			.recip{
+			.landscape .recip{
 			font-size:1rem;
 			margin-top:9.2rem;
 			margin-right:1.5rem;
 			}
 			
-			.login_botton01{
+			.landscape .login_botton01{
 			width:15rem;
 			height:3rem;
 			border-radius:.43rem;
@@ -1622,11 +1622,11 @@ border-radius: .6rem}
 			margin-top:2.6rem;
 			}
 			
-			.zheng{
+			.landscape .zheng{
 			width:32rem;
 			}
 			
-			.zheng img{
+			.landscape .zheng img{
 			width:6.7rem;
 			height:6.7rem;
 			margin:0 1.98rem;
@@ -1634,20 +1634,20 @@ border-radius: .6rem}
 			}
 			
 			/*品牌速递*/
-			.sudi img{
+			.landscape .sudi img{
 			height:22.6rem;
 			margin-bottom:.4rem;
 			}
-			.centerIcon{
+			.landscape .centerIcon{
 				width:8rem;
 				height:8rem;
 				border-radius: 8rem;
 				margin-top:4rem;
 			}
-			.centerName{
+			.landscape .centerName{
 				margin-top: 4rem;
 			}
-			.centerTapArea{
+			.landscape .centerTapArea{
 				border-radius: .6rem;
 				height:3rem;
 				width:26rem;
@@ -1655,4 +1655,4 @@ border-radius: .6rem}
 				font-size: 1.6rem;
 				line-height: 3rem
 			}
-			}
+			

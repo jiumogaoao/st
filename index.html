@@ -81,9 +81,11 @@ function suit(){/*自适应计算*/
 		$(".main").height($(window).height())
 		/*横屏*/
 		if($(window).width()>$(window).height()){
+			$("body").addClass("landscape")
 			fontSize=($(window).width()/320)*10;
 		$("html").css("font-size",($(window).width()/320)*10+"px");
 			}else{
+				$("body").removeClass("landscape")
 			/*竖屏*/
 			fontSize=($(window).width()/320)*20;
 		$("html").css("font-size",($(window).width()/320)*20+"px")	;

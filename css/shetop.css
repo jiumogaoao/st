@@ -103,10 +103,10 @@
 				
 			}
 			.typePoint .icon{/*类型图标*/
-				width:2.65rem;
-				height:2.55rem;
+				width:2.2rem;
+				height:2.2rem;
 				position: relative;
-				left:1rem;
+				left:1.274rem;
 			}
 			.typePoint .name{/*类型名*/
 				margin-top: .5rem;
@@ -1086,12 +1086,12 @@ border-radius: .3rem}
 				margin-top: 4rem;			
 			}
 			.landscape .typePoint .icon{
-				width:5.3rem;
-				height:5.1rem;
-				left:2rem;
+				width:4.4rem;
+				height:4.4rem;
+				left:2.7rem;
 			}
 			.landscape .typePoint .name{
-				margin-top: 1rem;
+				margin-top: .5rem;
 				color: #ff0066;
 				text-align: center;
 				font-size: 1rem;
@@ -1184,7 +1184,7 @@ margin-left: 1rem}
 	margin-left: .1rem;
 	}
 .landscape .headTitle{
-	line-height: 5.5rem;
+	line-height: 2.75rem;
 }
 .landscape .shoppingList{
 	margin-top:1.2rem;

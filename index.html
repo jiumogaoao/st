@@ -92,9 +92,13 @@ function suit(){/*自适应计算*/
 				}
 		/*脚部*/
 		$(".footer").css("top",$(window).height()-$(".footer").height());
+        $(".nav").css("top",app.fns.get("px2rem")($(window).height()-$("nav").height()-fontSize*3.5)+"rem");
+        $(".nav").css("left","1.25rem");
 };
 
 	suit();
+
+    
 
 	$(window).resize(function(){
 		suit()
@@ -106,14 +110,14 @@ function suit(){/*自适应计算*/
         app.fns.get("stopBubble")(e)
         touchTime=new Date().getTime();
     })
-    /*
+    
     $(".nav").on("touchmove",function(e){
        app.fns.get("stopBubble")(e);
         $(".nav").css({
             top:(app.fns.get("px2rem")(e.touches[0].clientY)-1.2)+"rem",
             left:(app.fns.get("px2rem")(e.touches[0].clientX)-1.2)+"rem"
         })
-    })*/
+    })
     $(".nav").on("touchend",function(){
         var endTime=new Date().getTime();
         console.log(endTime)
